@@ -1,0 +1,15 @@
+{
+  "name": "CheeseSwapSwap Exchange Data",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "CheeseSwapSwap Exchange Data": {
+        "url": "https://api.thegraph.com/subgraphs/name/blockartist/cheesesub",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
