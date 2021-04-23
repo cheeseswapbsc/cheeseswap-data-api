@@ -9,6 +9,14 @@
     {
       "source": "/api/tokens/:address",
       "destination": "/api/tokens/tokens"
+    },
+    {
+      "source": "/api/pairs",
+      "destination": "/api/pairs"
+    },
+    {
+      "source": "/api/summary",
+      "destination": "/api/summary"
     }
   ],
   "headers": [
