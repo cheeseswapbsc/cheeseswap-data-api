@@ -16,7 +16,7 @@ export const TOKEN_BY_ADDRESS = gql`
       id
       name
       symbol
-      derivedBNB
+      derivedETH
       derivedUSD
     }
   }
@@ -27,7 +27,7 @@ export const TOP_PAIRS = gql`
     id
     name
     symbol
-    derivedBNB
+    derivedETH
     derivedUSD
   }
 
@@ -49,7 +49,7 @@ export const TOP_PAIRS = gql`
       reserve1
       volumeToken0
       volumeToken1
-      reserveBNB
+      reserveETH
       reserveUSD
     }
   }
